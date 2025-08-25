@@ -1,5 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
+.sora-regular {
+	font-family: 'Sora', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.sora-regular-italic {
+	font-family: 'Sora', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.sora-semibold {
+	font-family: 'Sora', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.sora-bold {
+	font-family: 'Sora', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+}
+
 body {
   margin: 0;
   font-family: 'Sora', sans-serif;

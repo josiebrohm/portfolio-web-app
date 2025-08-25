@@ -1,3 +1,39 @@
+/* MAIN PAGE SETTINGS */
+
+
+
+
+
+
+
+/* MENU BAR */
+.menubar {
+	border-bottom-style: solid;
+	border-color: black;
+	border-width: 2px;
+}
+
+.p-menubar {
+	position: relative;
+	justify-content: end;
+}
+
+.p-menubar-start {
+	margin-right: auto;
+}
+
+.p-menuitem {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+
+
+
+
+/* DEFAULT */
+
 .App {
   text-align: center;
 }
