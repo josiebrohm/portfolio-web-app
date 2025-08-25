@@ -1,10 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import MenuBar from './components/MenuBar';
+
+import 'primereact/resources/themes/mdc-light-indigo/theme.css';
+import 'primereact/resources/primereact.min.css';
 
 function App() {
 	return (

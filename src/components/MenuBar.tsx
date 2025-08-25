@@ -20,7 +20,7 @@ export default function MenuBar() {
 		}
 	];
 
-	const start = <p> hello, world!</p>
+	const start = <p className="highlighted-text"> hello, world!</p>
 
 	return (
 		<div className="menubar">
