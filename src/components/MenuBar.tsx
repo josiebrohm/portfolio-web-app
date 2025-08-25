@@ -13,10 +13,14 @@ export default function MenuBar() {
 		{
 			label: "/projects",
 			command: () => navigate("/projects")
+		},
+		{
+			label: "/contact",
+			command: () => navigate("/contact")
 		}
 	];
 
-	const start = <p>LOGO</p>
+	const start = <p> hello, world!</p>
 
 	return (
 		<div className="menubar">
