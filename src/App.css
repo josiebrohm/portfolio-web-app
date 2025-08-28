@@ -4,6 +4,8 @@
 	--green: #285943;
 	--rose: #ab4967;
 	--saffron: #eac435;
+
+	overflow-x: hidden;
 }
 
 * {
@@ -13,10 +15,13 @@
 
 /* MAIN PAGE SETTINGS */
 .main-page {
-	position: relative;
+	position: absolute;
 	display: flex;
 	flex-direction: column;
 	align-items: left;
+	min-height: 100vh;
+	width: 100vw;
+	height: fit-content;
 
 	padding-left: 20px;
 	padding-right: 20px;
@@ -44,6 +49,7 @@
 
 .p-menubar {
 	position: relative;
+	top: 0;
 	justify-content: end;
 	height: 55px;
 	background: none;
@@ -89,3 +95,24 @@
 }
 
 
+/* PROJECT PANEL */
+.project-card {
+
+}
+
+.project-card .p-card-content {
+	display: flex;
+}
+
+.project-bio {
+	text-align: right;
+}
+
+.p-image-preview-indicator {
+	background-color:#f4f4f680;
+}
+
+.p-image-preview-icon {
+	background-color: transparent;
+	color: var(--black);
+}
