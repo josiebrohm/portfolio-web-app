@@ -1,7 +1,6 @@
 import React from 'react';
 import { Menubar } from 'primereact/menubar';
 import { Link, useNavigate } from 'react-router-dom';
-import HomePage from '../pages/HomePage';
 
 export default function MenuBar() {
 	const navigate = useNavigate();

@@ -111,9 +111,6 @@
 
 
 /* PROJECT PANEL */
-.project-card {
-
-}
 
 .project-card .p-card-content {
 	display: flex;
@@ -123,11 +120,21 @@
 	text-align: right;
 }
 
-.p-image-preview-indicator {
+.project-card .p-image-preview-indicator {
 	background-color:#f4f4f680;
 }
 
-.p-image-preview-icon {
+.project-card .p-image-preview-icon {
 	background-color: transparent;
 	color: var(--black);
+}
+
+/* CONTACT PAGE */
+.contact-form .p-card-title {
+	text-align: center;
+}
+
+.contact-form .p-card-content {
+	display: grid;
+	justify-items: center;
 }
