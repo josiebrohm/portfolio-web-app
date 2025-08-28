@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
+:root {
+	--black: #000411;
+	--white: #f4f4f6;
+	--green: #285943;
+	--rose: #ab4967;
+	--saffron: #eac435;
+
+	overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+	background-color: var(--white);
+	font-family: 'Sora', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* MAIN PAGE SETTINGS */
+.main-page {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	min-height: 100vh;
+	width: 100vw;
+	height: fit-content;
+
+	padding-left: 20px;
+	padding-right: 20px;
+
+	color: var(--black);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.highlighted-text {
+	background-color: var(--saffron);
+	width: fit-content;
+	text-decoration: none;
+	color: var(--black);
 }
 
-.App-link {
-  color: #61dafb;
+.logo-text {
+	background-color: var(--saffron);
+	width: fit-content;
+	text-decoration: none;
+	color: var(--black);
+	user-select: none;
+	
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo-text:active {
+	color: var(--black);
+}
+
+
+
+
+
+/* MENU BAR */
+.menubar {
+	border-bottom-style: solid;
+	border-color: var(--black);
+	border-width: 1px;
+
+	width: 100vw;
+}
+
+.p-menubar {
+	position: relative;
+	top: 0;
+	justify-content: end;
+	height: 55px;
+	background: none;
+}
+
+.p-menubar-button {
+	color: var(--black);
+}
+
+.p-menuitem-text {
+	color: var(--black);
+}
+
+.p-menubar-start {
+	margin-right: auto;
+	margin-left: 10px;
+}
+
+.p-menuitem {
+	background: none;
+}
+
+.p-menubar-root-list {
+	background: none;
+	background-color: transparent;
+	width: fit-content;
+	left: auto;
+	box-shadow: none;
+}
+
+.p-menubar-root-list .p-menuitem-link {
+	justify-content: right;
+	padding: 0.4rem 0.65rem;
+	background-clip: content-box;
+}
+
+.p-menubar-root-list .p-menuitem-text {
+	background-color: var(--saffron);
+}
+
+.p-menuitem-content {
+	background: none;
+}
+
+
+/* PROJECT PANEL */
+.project-card {
+
+}
+
+.project-card .p-card-content {
+	display: flex;
+}
+
+.project-bio {
+	text-align: right;
+}
+
+.p-image-preview-indicator {
+	background-color:#f4f4f680;
+}
+
+.p-image-preview-icon {
+	background-color: transparent;
+	color: var(--black);
 }
