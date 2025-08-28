@@ -1,6 +1,7 @@
 import React from 'react';
 import { Menubar } from 'primereact/menubar';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import HomePage from '../pages/HomePage';
 
 export default function MenuBar() {
 	const navigate = useNavigate();
@@ -20,7 +21,7 @@ export default function MenuBar() {
 		}
 	];
 
-	const start = <p className="highlighted-text"> hello, world!</p>
+	const start = <Link className="logo-text" to={"/"} draggable="false"> Josephine Bröhm</Link>
 
 	return (
 		<div className="menubar">

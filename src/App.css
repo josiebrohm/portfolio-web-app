@@ -32,6 +32,21 @@
 .highlighted-text {
 	background-color: var(--saffron);
 	width: fit-content;
+	text-decoration: none;
+	color: var(--black);
+}
+
+.logo-text {
+	background-color: var(--saffron);
+	width: fit-content;
+	text-decoration: none;
+	color: var(--black);
+	user-select: none;
+	
+}
+
+.logo-text:active {
+	color: var(--black);
 }
 
 
